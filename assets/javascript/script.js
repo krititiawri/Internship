@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
     $('.navbar a.dropdown-toggle').on('click', function(e) {
         var $el = $(this);
         var $parent = $(this).offsetParent(".dropdown-menu");
@@ -12,4 +12,4 @@ $(document).ready(function() {
 
         return false;
     });
-});
+// });
