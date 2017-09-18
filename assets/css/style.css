@@ -1,17 +1,41 @@
 /*Nav Bar*/
 .navbar{
-  height: 70px;
+  height: 100px;
+  
+}
+.navbar-collapse{
+  margin-top: 2%;
+  color: #fff !important;
+  background-color: rgba (0, 0, 0, 0) !important;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: normal;
+  font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 .container-fluid{
   position: relative;
   top: 8px;
 }
+@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret {
+  transform: rotate(-90deg);
+    }
+}
 
-/*.checkbox{
-  color: #fff !important;
-  margin-left: 6px;
-}*/
+a {
+    background-color: transparent;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
 
 .form-group{
   margin-left: 3px !important;
@@ -421,6 +445,7 @@
 }*/
 a{
   text-decoration: none !important;
+  /*color: #9d9d9d;*/
 }
 
 .gym-rec{
@@ -636,7 +661,7 @@ The good life,Interval training*/
   position: relative;
     top: -80px;
   height: 634px;
-  background-image: url(../images/miami7.jpg);
+  background-image: url(../images/image1.jpg);
   /*background-size: 100%;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -835,79 +860,46 @@ The good life,Interval training*/
   top: -5px !important;
 }
 
-/*.events-widget{
-  margin-left: 118px;
-  position: relative;
-    top: -487px;
-}*/
 
-/*.events-image{
-  width: 157.6%;
-  position: relative;
-    top: -49px;
-    left: -43px;
-}*/
+/*Ashwini -Contact and Sign Up Page Section*/
 
-/*Contact and Sign Up Page Section*/
-
-.signup-contact-section{
-  position: relative;
-  top: -200px;
-  height: 400px;
-  border-top: 80px solid #83dbea;
-  color: #e3ebed;
-}
-.signup-contact-section1{
-    position: relative;
-    top: -91px;
-    width: 119%;
-    left: -105px;
-    height: 472px;
-    /* border-top: 80px solid #83dbea; */
-    color: #e3ebed;
-    background-color: #4a98a5 !important;
-    background-attachment: fixed;
-}
-.signup-contact-section2{
-  position: relative;
-    top: 32px;
-    width: 119%;
-    left: -105px;
-    height: 610px;
-    /* border-top: 80px solid #83dbea; */
-    color: #e3ebed;
-    background-color: #4a98a5 !important;
-    background-attachment: fixed;
-  }
-  .signup-contact-section3{
-  position: relative;
-    top: 0px;
-    width: 119%;
-    left: -105px;
-    height: 610px;
-    /* border-top: 80px solid #83dbea; */
-    color: #e3ebed;
-    background-color: #4a98a5 !important;
-    background-attachment: fixed;
-  }
-  .signup-contact-section5{
-    position: relative;
-    top: -1px;
-    width: 119%;
-    left: -105px;
-    height: 610px;
-    /* border-top: 80px solid #83dbea; */
-    color: #e3ebed;
-    background-color: #4a98a5 !important;
-    background-attachment: fixed;
-  }
 .contact-signup{
-  margin-top: 30px;
+  position: relative;
+  margin-left: 80px;
+  height: auto;
   width: 550px !important;
+  line-height: 1.8;
+
 }
-.signup{
-  margin-left: 25px;
+
+.contact-form label {
+    margin-bottom: 3px;
+    float: none;
+    font-weight: bold;
+    display: block;
 }
+.contact-form input[type='text'], .contact-form input[type='email'] {
+    width: 300px;
+    max-width: 98%;
+    margin-bottom: 13px;
+}
+
+.contact-form textarea{
+  width: 545.59px;
+  height: 200px;
+}
+
+button, input, select, textarea {
+    color: #333;
+    font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+
+
 
 .contact{
   margin-right: 20px;
@@ -1018,6 +1010,7 @@ The good life,Interval training*/
 
 body{
   background-color: #4a98a5 !important;
+  overflow-y: hidden; 
 }
 
 /*Sticky Footer*/
@@ -1025,13 +1018,11 @@ body{
 html {
     position: relative;
     min-height: 100%;
-        overflow-x: hidden;
-
+          overflow-x: hidden;
 }
 body {
     margin: 0px 0px 100px; /* bottom = footer height */
-        overflow-x: hidden;
-
+          overflow-x: hidden;
 }
 
 /* Adding styling for Map*/
@@ -1192,17 +1183,18 @@ footer{
     margin-left: 63px;
   }
 .heading1{
-   font-weight: bold;
-   letter-spacing: 7px;
-   font-size: 50px;
-position: relative;
-    /* top: 73%; */
-    /* top: 50%; */
-    top: 209px;
-    left: 22%;
-    font-color: #fff;
-      font-family: 'Nixie One', sans-serif;
-}
+  text-decoration: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  font-family: "Cinzel",serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.875rem;
+  letter-spacing: 0.08em;
+  color: #fff !important;
+  margin-top: 59px;
+  margin-left: 10%;
+  }
 .heading2{
    font-weight: bold;
    letter-spacing: 7px;
